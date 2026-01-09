@@ -303,6 +303,45 @@ background-color:rgb(209, 29, 29);
 }
 
 
+.main-footer {
+    background-color: rgb(20, 17, 63);
+
+    
+}
+
+.footer-content {
+    background-color: #151030;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 120px 120px 30px 120px; 
+
+}
+
+.footer-link {
+    color: #ffffff;
+}
+
+
+.main-footer .footer-content ul {
+
+    display: flex;
+    gap: 15px;
+    text-decoration: none;
+   
+}
+
+
+.main-footer .divider{
+ align-items: center;
+ justify-content: center;
+}
+
+
+
 
 
 
