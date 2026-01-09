@@ -202,7 +202,53 @@ font-size: 15px;
 
 }
 
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .content-solution {
+ 
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    gap: 80px;
+    padding: 20px;
+ }
 
+ .SOLUTION .subtittle {
+    color: #28a745;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+ }
 
+  h1 {
 
+    font-size: 48px;
+    margin-bottom: 20px;
+}
 
+.SOLUTION .discription {
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.features {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.features li {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.features li::before {
+    content: '✓';
+    background-color: #28a745;
+    border-radius: 3200px;
+    margin: 20px 10px;
+    padding: 4px;
+
+}
